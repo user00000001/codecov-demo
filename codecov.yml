@@ -18,6 +18,8 @@ component_management:
         - api/smiles/
 
 flag_management:
+  default_rules:
+    carryforward: true
   individual_flags:
     - name: backend
       paths:
